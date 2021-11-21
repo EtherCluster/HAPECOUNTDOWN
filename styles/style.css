@@ -1,0 +1,45 @@
+*{
+
+    font-style: Archivo Black;
+    font-weight: 500;
+}
+
+.body{
+    background-color: rgb(34, 117, 190);
+
+    
+  
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(2px) brightness(0.2);
+
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+
+  #aboveDIV{
+    
+      width: 100hw;
+      height: 15vh;
+  }
+
+  a {
+    display: inline-block;
+    pointer-events: none;
+  }
